@@ -4478,11 +4478,12 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #ffffff;
 }
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  color: white;
 }
 
 .nav-tabs .nav-link {
@@ -11928,11 +11929,13 @@ section .section-subtitle {
 @media (min-width: 992px) {
   section .section-subtitle {
     font-size: 23px;
+    color: white;
   }
 }
 
 section .section-title {
   font-size: calc(28px + (35 - 28) * ((100vw - 320px) / (1200 - 320)));
+  color: white;
 }
 
 @media (min-width: 992px) {
