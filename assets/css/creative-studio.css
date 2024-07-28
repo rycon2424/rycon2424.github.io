@@ -12008,3 +12008,11 @@ section .section-title {
   margin-bottom: 5px;
   /* margin-top: -5px; */
 }
+
+.nobg-img {
+  display: block; /* Ensures image is treated as a block element */
+  width: 100%; /* Make sure image scales properly */
+  height: auto; /* Maintain aspect ratio */
+  border: none; /* Remove border */
+  background: none; /* Remove background color */
+}
