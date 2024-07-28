@@ -12000,3 +12000,11 @@ section .section-title {
 .scrolltitle-container .second-scrolltitle {
   font-size: 20px ; /* Adjust this value to your desired font size */
 }
+
+.widget-icon {
+  width: 50px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 0px; /* Space between the icon and the text */
+  margin-bottom: 5px;
+  /* margin-top: -5px; */
+}
