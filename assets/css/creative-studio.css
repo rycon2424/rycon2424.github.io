@@ -4598,6 +4598,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  width: 200px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -11784,7 +11785,7 @@ pre .code {
 .header {
   height: 100%;
   min-height: 600px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  background: url(../imgs/SupremeFightersBg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -11899,7 +11900,7 @@ section.has-bg-img:after {
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../imgs/section.jpg);
+  background-image: url(../imgs/SupremeFightersBg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -11908,11 +11909,11 @@ section.has-bg-img:after {
 }
 
 section.has-bg-img.bg-img-1:after {
-  background-image: url(../imgs/section.jpg);
+  background-image: url(../imgs/SupremeFightersBg.jpg);
 }
 
 section.has-bg-img.bg-img-2:after {
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/SupremeFightersBg.jpg);
 }
 
 section .section-subtitle {
