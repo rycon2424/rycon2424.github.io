@@ -11820,11 +11820,13 @@ pre .code {
   margin-top: -20px;
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
+  font-style: italic;
 }
 
 .header .overlay .title {
   font-size: calc(40px + (90 - 40) * ((100vw - 320px) / (1200 - 320)));
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
 @media (max-width: 767.98px) {
@@ -11981,4 +11983,20 @@ section .section-title {
   .about-wrapper .after {
     display: none;
   }
+}
+
+.overlay {
+  position: relative; /* Make the overlay the reference for absolute positioning */
+}
+
+.scrolltitle-container {
+  position: absolute;
+  bottom: 20px; /* Adjust this value to move the scrolltitle lower */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center the scrolltitle */
+}
+
+.scrolltitle-container .second-scrolltitle {
+  font-size: 20px ; /* Adjust this value to your desired font size */
 }
