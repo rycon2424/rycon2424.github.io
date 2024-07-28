@@ -933,12 +933,51 @@ pre code {
     max-width: 25%;
   }
   .col-sm-4 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 45%;
-        -ms-flex: 0 0 45%;
-            flex: 0 0 45%;
-    max-width: 45%;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific styling for the image wrapper */
+.custom-img-wrapper {
+    position: relative;
+    margin: 20px; /* Custom margin for spacing around the image wrapper */
+}
+
+/* Specific styling for the image */
+.custom-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific styling for the overlay */
+.custom-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Example background for the overlay */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 15px; /* Custom padding inside the overlay */
+}
+
+/* Hover effect for the overlay */
+.custom-img-wrapper:hover .custom-overlay {
+    opacity: 1;
+}
+
+/* Overlay info styling */
+.overlay-infos {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    color: white;
+    text-align: center;
+}
   .col-sm-5 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 41.66667%;
