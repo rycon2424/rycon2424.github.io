@@ -11125,7 +11125,7 @@ p {
 }
 
 .widget .widget-item:after {
-  content: "\e649";
+  content: " ";
   font-family: 'themify';
   font-size: 12px;
   color: #ff214f;
