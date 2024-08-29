@@ -28,18 +28,46 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End Of Page Navigation -->
-     
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style>
+            @font-face {
+                font-family: 'FutureTech';
+                src: url('assets/fonts/FutureTech.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+    
+            .FutureTech-font {
+                font-family: 'FutureTech', sans-serif;
+            }
+            
+            /* Optional: Adding styles to ensure font is applied consistently */
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif; /* Fallback font */
+            }
+        </style>
+    </head>
+
     <!-- Portfolio section (image sizes are 1568 x 880) -->
-    <section id="portfolio" style="background-color: #140000;">
+    <section class="has-bg-img bg-img-1 overlay" id="portfolio" style="background-color: #140000ce;">
         <div class="container text-center">
             <h6 class="section-title mb-3"></h6>
-            <h6 class="section-title mb-3">All my projects</h6>
+            <h6 class="section-title mb-3 FutureTech-font" style="font-size: 50px;" >All my projects</h6>
             <div class="row">
                 <div class="col-sm-4">
                   <div class="img-wrapper custom-img-wrapper">
@@ -103,12 +131,12 @@
         </div>     
     </section>
     <!-- End of portfolio section -->
-
-    <section class="has-bg-img py-md-1">
+     
+    <section class="has-bg-img py-md-3">
     </section>
 
         <!-- Contact Section -->
-        <section id="contact" style="background-color: #140000;">
+        <section id="contact" class="has-bg-img bg-img-1" style="background-color:  rgba(20, 0, 0, 0.925);">
             <div class="container">
                 <div class= "contact-card" style="background-color: #140000;">
                     <div class="infos">

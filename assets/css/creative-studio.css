@@ -11825,7 +11825,15 @@ pre .code {
 .header {
   height: 100%;
   min-height: 600px;
+}
+
+.headerSupremeFighters{
   background: url(../imgs/SupremeFightersBg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.headerPushYourFamily{
+  background: url(../imgs/pyf/bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -11942,7 +11950,6 @@ section.has-bg-img:after {
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../imgs/SupremeFightersBg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -11955,7 +11962,11 @@ section.has-bg-img.bg-img-1:after {
 }
 
 section.has-bg-img.bg-img-2:after {
-  background-image: url(../imgs/SupremeFightersBg.jpg);
+  background-image: url(../imgs/pyf/bg.jpg);
+}
+
+section.has-bg-img.bg-img-3:after {
+  background-image: url(../imgs/YetAnotherBackground.jpg);
 }
 
 section .section-subtitle {
