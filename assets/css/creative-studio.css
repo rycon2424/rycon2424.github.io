@@ -12078,7 +12078,7 @@ section .section-title {
 
 .gallery-item {
   position: relative;
-  width: 400px;
+  width: 600px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -12109,5 +12109,27 @@ figcaption {
 }
 
 .gallery-item:hover figcaption {
+  opacity: 1;
+}
+
+.gallery-itemSquare {
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-itemSquare img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-itemSquare:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-itemSquare:hover figcaption {
   opacity: 1;
 }
