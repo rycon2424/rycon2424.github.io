@@ -11837,6 +11837,16 @@ pre .code {
   background-size: cover;
 }
 
+.headerDarkArcana{
+  background: url(../imgs/da/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.headerSpyXAtms{
+  background: url(../imgs/sxa/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 .header .overlay {
   position: absolute;
   left: 0;
@@ -11966,7 +11976,11 @@ section.has-bg-img.bg-img-2:after {
 }
 
 section.has-bg-img.bg-img-3:after {
-  background-image: url(../imgs/YetAnotherBackground.jpg);
+  background-image: url(../imgs/da/bg.JPG);
+}
+
+section.has-bg-img.bg-img-4:after {
+  background-image: url(../imgs/sxa/bg.JPG);
 }
 
 section .section-subtitle {
