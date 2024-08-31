@@ -11852,6 +11852,11 @@ pre .code {
   background-size: cover;
 }
 
+.headerWesternShooter{
+  background: url(../imgs/ws/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 .header .overlay {
   position: absolute;
   left: 0;
@@ -11990,6 +11995,10 @@ section.has-bg-img.bg-img-4:after {
 
 section.has-bg-img.bg-img-5:after {
   background-image: url(../imgs/lw/bg.JPG);
+}
+
+section.has-bg-img.bg-img-6:after {
+  background-image: url(../imgs/ws/bg.JPG);
 }
 
 section .section-subtitle {
