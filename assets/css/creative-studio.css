@@ -11838,7 +11838,7 @@ pre .code {
 }
 
 .headerDarkArcana{
-  background: url(../imgs/da/bg1.jpg) no-repeat center center fixed;
+  background: url(../imgs/da/bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -11986,7 +11986,7 @@ section.has-bg-img.bg-img-2:after {
 }
 
 section.has-bg-img.bg-img-3:after {
-  background-image: url(../imgs/da/bg1.jpg);
+  background-image: url(../imgs/da/bg.jpg);
 }
 
 section.has-bg-img.bg-img-4:after {
