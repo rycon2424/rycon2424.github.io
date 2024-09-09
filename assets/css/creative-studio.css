@@ -11115,12 +11115,12 @@ p {
 }
 
 .widget .widget-item {
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  border: 2px solid #ff214f;
+  border: 5px solid #ff214f;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 75px;
   position: relative;
 }
 
