@@ -971,6 +971,9 @@ pre code {
 
 /* Overlay info styling */
 .overlay-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
     position: absolute;
     bottom: 10px;
     left: 50%;
