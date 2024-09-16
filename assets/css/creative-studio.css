@@ -12221,3 +12221,50 @@ figcaption {
   font-size: 16px;
   color: white; /* Set description text color to white */
 }
+
+.start-button {
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: #444;
+  border: 2px solid white;
+  overflow: hidden;
+  margin: 0 auto; /* Center the game container */
+}
+
+#player-car {
+  position: absolute;
+  bottom: 10px;
+  left: 140px;
+  width: 25px;
+  height: 50px;
+  background-color: red;
+}
+
+#obstacle {
+  position: absolute;
+  top: -100px;
+  width: 25px;
+  height: 50px;
+  background-color: blue;
+}
+
+.score {
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+}
